@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+</head>
+<body>
+    <h2>Welcome to payoo homepage</h2>
+
+
+ <main class="flex justify-center">
+    <div class="mockup-phone">
+        <div class="camera"></div>
+        <div class="display">
+          <div class="artboard artboard-demo phone-2">
+            <!-- available balance  -->
+            <div>
+                <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title">Total Page Views</div>
+                      <div class="stat-value">89,400</div>
+                      <div class="stat-desc flex justify-center"> available balance</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="divider"></div>
+                <!-- user actions  -->
+                <div>
+<div class="flex justify-center gap-x-5">
+    <button class="btn btn-outline btn-success">add money</button>
+<button class="btn btn-outline btn-warning">Withdraw</button>
+</div>
+<div class="divider"></div>
+<form class="card-body">
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text">Amount</span>
+      </label>
+      <input id="add-money-input"  type="text" placeholder="Enter amount" class="input input-bordered" required />
+    </div>
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text">Pin</span>
+      </label>
+      <input id="add-pin-input" type="number" placeholder="Enter pin" class="input input-bordered" required />
+      <label class="label">
+        <a href="#" class="label-text-alt link link-hover">Forgot Pin Number?</a>
+      </label>
+    </div>
+    <div id="btn-add-money" class="form-control mt-6">
+      <button class="btn btn-primary">Login</button>
+    </div>
+  </form>
+                </div>
+            </div>
+            <!-- user actions button  -->
+        </div>
+           
+        </main>
+      </div>
+      <script src="js/home.js"></script>
+</body>
+</html>
